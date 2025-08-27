@@ -13,7 +13,7 @@ IF %ERRORLEVEL% NEQ 0 (
 echo Downloading custom regions data..
 echo.  
 
-curl -L --output "%APPDATA%/../LocalLow/Innersloth/Among Us/regionInfo.json" --url "https://raw.githubusercontent.com/itznao/among-us-modded-servers/refs/heads/master/regionInfo.json"
+curl -L --output "%APPDATA%/../LocalLow/Innersloth/Among Us/regionInfo.json" --url "https://raw.githubusercontent.com/itznao/among-us-modded-servers/master/regionInfo.json"
 
 IF %ERRORLEVEL% NEQ 0 (
     echo Download failed. Please check your internet connection and try again.
@@ -24,3 +24,4 @@ IF %ERRORLEVEL% NEQ 0 (
 echo.
 echo Done! Restart your Among Us.
 pause
+
